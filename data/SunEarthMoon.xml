@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SYSTEM>
+  <PROPERTIES TimeStep="3600"/>
+  <OBJECTS>
+    <OBJECT ID="1" Name="Sun" Mass="1.99E30" Radius="6.96E8" X="0.0" Y="0.0" Z="0.0" Vx="0.0" Vy="0.0" Vz="0.0"/>
+    <OBJECT ID="2" Name="Earth" Mass="5.97E24" Radius="6.37E8" X="1.496E11" Y="0.0" Z="0.0" Vx="0.0" Vy="2.98E4" Vz="0.0"/>
+    <OBJECT ID="3" Name="Moon" Mass="7.342E22" Radius="1.73E8" X="1.496E11" Y="3.84E6" Z="0.0" Vx="1.02E3" Vy="0.0" Vz="0.0"/>
+  </OBJECTS>
+</SYSTEM>

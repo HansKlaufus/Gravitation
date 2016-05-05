@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<resource xmlns="http://www.wxwindows.org/wxxrc" version="2.3.0.1">
+	<object class="wxFrame" name="cBaseGui">
+		<style>wxDEFAULT_FRAME_STYLE|wxTAB_TRAVERSAL</style>
+		<size>612,398</size>
+		<title>cBaseGui</title>
+		<centered>1</centered>
+		<aui_managed>1</aui_managed>
+		<object class="wxMenuBar" name="m_MenuBar">
+			<label>MyMenuBar</label>
+			<object class="wxMenu" name="m_MenuFile">
+				<label>File</label>
+				<object class="wxMenuItem" name="m_MenuOpen">
+					<label>Open</label>
+					<help></help>
+				</object>
+				<object class="wxMenuItem" name="m_MenuSaveAs">
+					<label>Save as</label>
+					<help></help>
+				</object>
+				<object class="wxMenuItem" name="m_MenuClose">
+					<label>Close</label>
+					<help></help>
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="m_MenuQuit">
+					<label>Quit</label>
+					<help></help>
+				</object>
+			</object>
+			<object class="wxMenu" name="m_MenuSettings">
+				<label>Settings</label>
+				<object class="wxMenuItem" name="m_MenuShowBackgroundRaster">
+					<label>Show background raster</label>
+					<help></help>
+					<checked>1</checked>
+					<checkable>1</checkable>
+				</object>
+				<object class="wxMenuItem" name="m_MenuShowAxisFrame">
+					<label>Show axis frame</label>
+					<help></help>
+					<checked>1</checked>
+					<checkable>1</checkable>
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="m_MenuShowTreeView">
+					<label>Show tree view</label>
+					<help></help>
+					<checked>1</checked>
+					<checkable>1</checkable>
+				</object>
+				<object class="wxMenuItem" name="m_MenuShowScope">
+					<label>Show oscilloscope</label>
+					<help></help>
+					<checked>1</checked>
+					<checkable>1</checkable>
+				</object>
+				<object class="separator" />
+				<object class="wxMenuItem" name="m_MenuTimeMultiplier">
+					<label>Set time multiplier</label>
+					<help></help>
+				</object>
+			</object>
+			<object class="wxMenu" name="m_MenuCamera">
+				<label>Camera</label>
+				<object class="wxMenuItem" name="m_MenuX">
+					<label>Set Camera on X</label>
+					<help></help>
+				</object>
+				<object class="wxMenuItem" name="m_MenuY">
+					<label>Set Camera on Y</label>
+					<help></help>
+				</object>
+				<object class="wxMenuItem" name="m_MenuZ">
+					<label>Set Camera on Z</label>
+					<help></help>
+				</object>
+			</object>
+			<object class="wxMenu" name="m_MenuRun">
+				<label>Run</label>
+				<object class="wxMenuItem" name="m_MenuStart">
+					<label>Start</label>
+					<help></help>
+				</object>
+				<object class="wxMenuItem" name="m_MenuStop">
+					<label>Stop</label>
+					<help></help>
+				</object>
+			</object>
+		</object>
+		<object class="wxStatusBar" name="m_StatusBar">
+			<style>wxST_SIZEGRIP</style>
+			<fields>3</fields>
+		</object>
+	</object>
+	<object class="wxDialog" name="cTimeDialog">
+		<style>wxDEFAULT_DIALOG_STYLE</style>
+		<title>Time multiplier</title>
+		<centered>1</centered>
+		<object class="wxStaticBoxSizer">
+			<orient>wxVERTICAL</orient>
+			<label>Set time multiplier</label>
+			<object class="sizeritem">
+				<option>0</option>
+				<flag>wxALL</flag>
+				<border>5</border>
+				<object class="wxSlider" name="m_TimeSlider">
+					<style>wxSL_AUTOTICKS|wxSL_INVERSE|wxSL_LABELS|wxSL_SELRANGE|wxSL_VERTICAL</style>
+					<value>100</value>
+					<min>50</min>
+					<max>200</max>
+				</object>
+			</object>
+			<object class="sizeritem">
+				<option>1</option>
+				<flag>wxEXPAND</flag>
+				<border>5</border>
+				<object class="wxStdDialogButtonSizer">
+					<object class="button">
+						<flag>wxALIGN_CENTER_HORIZONTAL|wxALL</flag>
+						<border>5</border>
+						<object class="wxButton" name="wxID_OK">
+							<label>&amp;OK</label>
+						</object>
+					</object>
+				</object>
+			</object>
+		</object>
+	</object>
+</resource>

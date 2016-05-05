@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SYSTEM>
+  <PROPERTIES TimeStep="86400"/>
+  <OBJECTS>
+    <OBJECT ID="0" Name="Sun" Mass="1.99E30" Radius="6.955E8" X="0.000" Y="0.000" Z="0.000" Vx="0.000" Vy="0.000" Vz="0.000"/>
+    <OBJECT ID="1" Name="Mercury" Mass="3.3022E23" Radius="2.4399E6" X="57908998700.000" Y="0.000" Z="0.000" Vx="0.000" Vy="47872.000" Vz="0.000"/>
+    <OBJECT ID="2" Name="Venus" Mass="4.86718E24" Radius="6.0518E6" X="108203510100.000" Y="0.000" Z="0.000" Vx="0.000" Vy="35021.000" Vz="0.000"/>
+    <OBJECT ID="3" Name="Earth" Mass="5.972E24" Radius="6.3781E6" X="149597000000.000" Y="0.000" Z="0.000" Vx="0.000" Vy="29784.000" Vz="0.000"/>
+    <OBJECT ID="4" Name="Moon" Mass="7.34556E22" Radius="1.7375E6" X="149597000000.000" Y="384404000.000" Z="0.000" Vx="-1023.170" Vy="0.000" Vz="0.000"/>
+    <OBJECT ID="5" Name="Mars" Mass="6.413928E23" Radius="3.3962E6" X="227940948900.000" Y="0.000" Z="0.000" Vx="0.000" Vy="24129.000" Vz="0.000"/>
+    <OBJECT ID="6" Name="Jupiter" Mass="1.8980712E27" Radius="6.9911E7" X="778308311900.000" Y="0.000" Z="0.000" Vx="0.000" Vy="13064.000" Vz="0.000"/>
+    <OBJECT ID="7" Name="Saturn" Mass="5.6848E26" Radius="5.8232E7" X="1424657110100.000" Y="0.000" Z="0.000" Vx="0.000" Vy="9661.000" Vz="0.000"/>
+    <OBJECT ID="8" Name="Uranus" Mass="8.6810E25" Radius="2.5362E7" X="2879293459000.000" Y="0.000" Z="0.000" Vx="0.000" Vy="6813.000" Vz="0.000"/>
+    <OBJECT ID="9" Name="Neptune" Mass="1.024E26" Radius="2.4622E7" X="4505353010200.000" Y="0.000" Z="0.000" Vx="0.000" Vy="5443.000" Vz="0.000"/>
+    <OBJECT ID="10" Name="Pluto" Mass="1.305E22" Radius="1.184E6" X="4505353010200.000" Y="0.000" Z="0.000" Vx="0.000" Vy="5443.000" Vz="0.000"/>
+  </OBJECTS>
+</SYSTEM>

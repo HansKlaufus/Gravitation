@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Gravitation" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Gravitation" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/GeneralRelativity" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="`wx-config --cflags` -fPIC" />
+			<Add directory="src" />
+			<Add directory="include" />
+		</Compiler>
+		<Linker>
+			<Add option="`wx-config --libs --gl-libs`" />
+			<Add library="GL" />
+			<Add library="GLU" />
+		</Linker>
+		<Unit filename="gui/basegui.cpp" />
+		<Unit filename="gui/basegui.h" />
+		<Unit filename="include/app.h" />
+		<Unit filename="include/fileio.h" />
+		<Unit filename="include/function.h" />
+		<Unit filename="include/glcanvas.h" />
+		<Unit filename="include/maingui.h" />
+		<Unit filename="include/object.h" />
+		<Unit filename="include/oscopevector.h" />
+		<Unit filename="include/system.h" />
+		<Unit filename="mathplot/mathplot.cpp" />
+		<Unit filename="mathplot/mathplot.h" />
+		<Unit filename="src/app.cpp" />
+		<Unit filename="src/fileio.cpp" />
+		<Unit filename="src/glcanvas.cpp" />
+		<Unit filename="src/maingui.cpp" />
+		<Unit filename="src/object.cpp" />
+		<Unit filename="src/oscopevector.cpp" />
+		<Unit filename="src/system.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

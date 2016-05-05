@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SYSTEM>
+  <PROPERTIES TimeStep="1"/>
+  <OBJECTS>
+    <OBJECT ID="1" Name="Particle 0" Mass="1000.0" Radius="0.100" X="1.504" Y="3.587" Z="-1.738" Vx="0.0" Vy="0.0" Vz="0.0"/>
+    <OBJECT ID="2" Name="Particle 1" Mass="1000.0" Radius="0.100" X="-7.595" Y="1.226" Z="-7.125" Vx="0.01" Vy="0.0" Vz="0.0"/>
+    <OBJECT ID="3" Name="Particle 2" Mass="1000.0" Radius="0.100" X="9.394" Y="9.414" Z="7.802" Vx="0.0" Vy="0.0" Vz="0.0"/>
+  </OBJECTS>
+</SYSTEM>
